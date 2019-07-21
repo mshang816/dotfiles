@@ -1,0 +1,12 @@
+if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then
+    GIT_PROMPT_ONLY_IN_REPO=1
+    source $HOME/.bash-git-prompt/gitprompt.sh
+fi
+
+export GOROOT=$HOME/go
+export GOPATH=$HOME/go_proj
+
+export PATH=$PATH:$GOROOT/bin
+
+#export LANG="en_US.UTF-8"
+#export LC_ALL="en_US.UTF-8"
