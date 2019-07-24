@@ -14,6 +14,8 @@ git config --local user.name "XXX YYY"
 
 git config --global core.editor "vim"
 
+git config --global commit.template $HOME/.git-commit-template
+
 # bash git prompt
 # https://github.com/magicmonty/bash-git-prompt
 git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1
