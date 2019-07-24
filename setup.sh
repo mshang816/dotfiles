@@ -10,3 +10,7 @@ git config --global user.name "XXX YYY"
 
 git config --local user.email "XXX@YYY"
 git config --local user.name "XXX YYY"
+
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa
