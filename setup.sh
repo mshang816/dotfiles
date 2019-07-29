@@ -32,6 +32,9 @@ sudo apt-add-repository ppa:git-core/ppa
 sudo apt-get update
 sudo apt-get install git
 
+# install openjdk
+sudo apt install openjdk-8-jdk
+
 # build vim from source
 # https://github.com/ycm-core/YouCompleteMe/wiki/Building-Vim-from-source
 sudo apt install libncurses5-dev libgnome2-dev libgnomeui-dev \
