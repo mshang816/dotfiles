@@ -26,6 +26,9 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
 
+# fedora commands
+sudo dnf install ack
+
 # install latest git stable builds
 # https://askubuntu.com/questions/568591/how-do-i-install-the-latest-version-of-git-with-apt/568596
 sudo apt-add-repository ppa:git-core/ppa
