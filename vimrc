@@ -72,8 +72,8 @@ endif
 "set tags=./tags,tags,$WORKDIR/datapower/tags,$WORKDIR/third-party/install/include/tags,/usr/include/tags
 set tags=$WORKDIR/build/tags
 
-set cscopequickfix=s-,c-,d-,i-,t-,e-
-cs a $WORKDIR/datapower/cscope.out $WORKDIR/datapower
+"set cscopequickfix=s-,c-,d-,i-,t-,e-
+"cs a $WORKDIR/datapower/cscope.out $WORKDIR/datapower
 
 let g:vimgdb_debug_file = ""
 run macros/gdb_mappings.vim
